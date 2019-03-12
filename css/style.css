@@ -1,0 +1,104 @@
+/*
+Glossary
+
+Table of Contents
+1)Basic styles
+2)Typography
+3)Layout
+4)Forms
+5)Tables
+
+*/
+
+/*---- 1) Basic Styles ----*/
+
+
+/*---- 2) Typography ----*/
+
+h2 {
+    font-family: 'Righteous', cursive;
+}
+
+/*---- 3) Layout ----*/
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #352640;
+    padding: 10px 20px;
+}
+nav a {
+    color: #d3d3d3; 
+}
+
+.details {
+    margin: 10px 0px 0px 0px;
+}
+
+.search-results a {
+    max-height: 200px;
+}
+/*---- 4) Forms ----*/
+
+input, select {
+    margin: 10px 0px;
+}
+label {
+    margin: 5px 0px;
+}
+/*
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+*/
+select {
+    width: 100%;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #352640;
+    color: #e3e3e3;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #5b3f6f;
+    color: #fff;
+}
+option {
+    background-color: #352640;
+    color: #e3e3e3;
+}
+
+.form-div {
+    background-color: #efefef;
+    padding: 20px;
+}
+.search-results img {
+    height: 300px;
+    max-width: 100%;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+/*---- 5) Tables ----*/
+table {
+    border: 1px solid #fff;
+}
+
+thead td {
+    padding: 5px;
+}
+
+tbody td {
+    padding: 0px 5px;
+}
